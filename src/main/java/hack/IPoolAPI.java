@@ -12,6 +12,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Locale;
 import java.util.Set;
 
 import org.apache.commons.io.IOUtils;
@@ -118,8 +119,10 @@ public class IPoolAPI {
 				bestRated = urgency;
 			}
 			
-			SimpleDateFormat dt = new SimpleDateFormat("dd-mm-yyyy"); 
+			SimpleDateFormat dt = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+			
 			Date dateParsed = dt.parse(date.toString());
+			System.out.println(dateParsed.toString());
 			newObject.put("date", dateParsed);
 			
 			if(currentDate != null){
