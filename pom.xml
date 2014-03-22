@@ -1,36 +1,60 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>tldsBack</groupId>
-  <artifactId>tldsBack</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
-  	<dependency>
-	<groupId>javax.servlet</groupId>
-	<artifactId>servlet-api</artifactId>
-	<version>2.5</version>
-</dependency>
-            
-            <dependency>
-	<groupId>org.json</groupId>
-	<artifactId>json</artifactId>
-	<version>20140107</version>
-</dependency>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tldsBack</groupId>
+	<artifactId>tldsBack</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-<dependency>
-	<groupId>org.glassfish.jersey.core</groupId>
-	<artifactId>jersey-client</artifactId>
-	<version>2.7</version>
-</dependency>
-            <dependency>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>2.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>4.0.2.RELEASE</version>
+		</dependency>
+
+            
+
+    <dependency>
+        <groupId>httpcomponents-httpcore</groupId>
+        <artifactId>jakarta-httpcore</artifactId>
+        <version>4.0-alpha1</version>
+      </dependency>
+    <dependency>
 	<groupId>org.apache.commons</groupId>
-	<artifactId>commons-lang3</artifactId>
-	<version>3.3</version>
+	<artifactId>commons-io</artifactId>
+	<version>1.3.2</version>
 </dependency>
-            
-            
-  </dependencies>
 
-  
-  
+		<dependency>
+			<groupId>org.mortbay.jetty</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>3.0.20090124</version>
+		</dependency>
+
+	</dependencies>
+
+
+
 </project>
